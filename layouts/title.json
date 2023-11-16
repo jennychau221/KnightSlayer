@@ -1,0 +1,1592 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Title",
+  "name": "Title",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 4,
+    "gridHeight": 4,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.51999999999997,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "MenuTextItem",
+      "objects": [
+        {
+          "name": "BitmapMenuExit"
+        },
+        {
+          "name": "BitmapMenuCredits"
+        },
+        {
+          "name": "BitmapMenuStart"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BitmapTitle",
+      "persistentUuid": "5e4cf3c7-ee72-4b06-9a7b-4968a7f524b7",
+      "width": 0,
+      "x": 390,
+      "y": 35,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BitmapMenuStart",
+      "persistentUuid": "36634041-3e96-465f-9a7a-ebb3ff15126b",
+      "width": 0,
+      "x": 524,
+      "y": 518,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "name": "Up",
+          "type": "string",
+          "value": "3"
+        },
+        {
+          "name": "Down",
+          "type": "string",
+          "value": "2"
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "Start"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "name": "MenuBorder",
+      "persistentUuid": "1bb6807d-9fcb-4617-a2d8-be2df3f75060",
+      "width": 316,
+      "x": 467,
+      "y": 480,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "MenuSelector",
+      "persistentUuid": "1359582a-afc7-4258-8caf-989a57ceca86",
+      "width": 255,
+      "x": 499,
+      "y": 504,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BitmapMenuCredits",
+      "persistentUuid": "61de35d9-5033-453b-8afa-679160d3549a",
+      "width": 0,
+      "x": 552,
+      "y": 573,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Up",
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "2"
+        },
+        {
+          "name": "Down",
+          "type": "string",
+          "value": "3"
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "Credits"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BitmapMenuExit",
+      "persistentUuid": "33e0ccc3-3f66-4048-b180-d92b43101738",
+      "width": 0,
+      "x": 532,
+      "y": 620,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Up",
+          "type": "string",
+          "value": "2"
+        },
+        {
+          "name": "Down",
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "3"
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "Exit"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 896,
+      "layer": "BGLayer1",
+      "name": "TitleBG1",
+      "persistentUuid": "1db13481-ff80-4950-8242-106717ffabd7",
+      "width": 1291,
+      "x": -12,
+      "y": -18,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FadeObject",
+      "persistentUuid": "dc86073e-3b78-43ff-af7c-4efd38af5ed6",
+      "width": 0,
+      "x": -268,
+      "y": 152,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 240,
+      "layer": "",
+      "name": "KeyboardControls",
+      "persistentUuid": "a4c364ef-f865-4599-b1aa-3c63454e1413",
+      "width": 324,
+      "x": 20,
+      "y": 446,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 240,
+      "layer": "",
+      "name": "GamepadControls",
+      "persistentUuid": "64b4ec7c-a3ab-4818-b097-36a48be1bc11",
+      "width": 500,
+      "x": 798,
+      "y": 463,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "BitmapTitle",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Knight Slayer",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ff0000",
+        "bitmapFontResourceName": "sanguis80.fnt",
+        "textureAtlasResourceName": "sanguis80_0.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BitmapMenuExit",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [
+        {
+          "name": "Up",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Down",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "ID",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "EXIT GAME",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "DogicaTake4_0.png",
+        "align": "left",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BitmapMenuCredits",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [
+        {
+          "name": "Up",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Down",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "ID",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "CREDITS",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "DogicaTake4_0.png",
+        "align": "left",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BitmapMenuStart",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Up",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Down",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "START GAME",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "DogicaTake4_0.png",
+        "align": "left",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 21,
+      "height": 50,
+      "leftMargin": 21,
+      "name": "MenuBorder",
+      "rightMargin": 21,
+      "texture": "NewFile-1.png3",
+      "tiled": true,
+      "topMargin": 21,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 50,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 24,
+      "height": 86,
+      "leftMargin": 24,
+      "name": "MenuSelector",
+      "rightMargin": 24,
+      "texture": "Selector-1-1.png",
+      "tiled": true,
+      "topMargin": 24,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 172,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "TitleBG1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "TitleBG1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "FadeObject",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Fade",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Fade-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "KeyboardControls",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Keyboard:\nMenu:\nMove - W or S\nSelect - K\n\nIn Game: \nMove - A or D\nJump - J\nAttack - K\nDash - O",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "DogicaTake4_0.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "GamepadControls",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Gamepad:\nMenu:\nMove - D-Pad\nSelect - Cross or A\n\nIn Game:\nMove: D-Pad or Left Stick\nJump: Cross or A\nAttack: Square or X\nDash: Circle or B",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "DogicaTake4_0.png",
+        "align": "right",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "JumpAttack",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "(There is no jump attack)",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "DogicaTake4_0.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "BitmapTitle"
+      },
+      {
+        "objectName": "BitmapMenuExit"
+      },
+      {
+        "objectName": "BitmapMenuCredits"
+      },
+      {
+        "objectName": "BitmapMenuStart"
+      },
+      {
+        "objectName": "MenuBorder"
+      },
+      {
+        "objectName": "MenuSelector"
+      },
+      {
+        "objectName": "TitleBG1"
+      },
+      {
+        "objectName": "FadeObject"
+      },
+      {
+        "objectName": "KeyboardControls"
+      },
+      {
+        "objectName": "GamepadControls"
+      },
+      {
+        "objectName": "JumpAttack"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 51,
+        "g": 107,
+        "r": 250,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "This project is meant as a game example or template for a more advanced platformer. This is in the style of older castlevania entries, such as Castlevania 1 or 3.\nThere are numerous advanced GDevelop concepts in this project, such as finite state machines (FSMs), tweens, bitmap fonts and bitmap text objects, tilemaps, external event sheets, declaring variables via events, and object variables. \n\nBefore working with this project, it is STRONGLY recommended that you review the following:\nAt least the first four tutorials on the GDevelop Wiki: http://wiki.compilgames.net/doku.php/gdevelop5/tutorials. This example uses concepts from EACH of those tutorials and it is important to understand those concepts before trying to adapt these ideas.\nThe finite state machine tutorial at: http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/finite_state_machine"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "The following events help with some of the aesthetics of the title screen by centering the title screen and menu item text on the X axis.\nThe Menu Border object is then centered based off the middle menu item.\nFinally, the Menu Selector object is centered and placed over the Start Game object.\nWe also use this event to play the title music."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "MenuTextItem",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "BitmapTitle",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "MenuBorder",
+            "=",
+            "BitmapMenuStart.CenterX() - (MenuBorder.Width() / 2)",
+            "=",
+            "BitmapMenuCredits.CenterY()-(MenuBorder.Height()/2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "MenuSelector",
+            "=",
+            "BitmapMenuStart.CenterX()-(MenuSelector.Width()/2)",
+            "=",
+            "BitmapMenuStart.CenterY()-(MenuSelector.Height()/2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Jonathan_So-ForMe-truncade.ogg",
+            "100",
+            "yes",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "GamepadControls",
+            "=",
+            "KeyboardControls.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "JumpAttack",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "The fade object is hidden at the start of the scene, then stretched to the width/height of the screen and positioned so it covers the entire screen."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "FadeObject",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "FadeObject",
+                "=",
+                "0",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "FadeObject",
+                "=",
+                "CameraWidth(\"\",0)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "FadeObject",
+                "=",
+                "CameraHeight(\"\",0)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Whenever starting or returning to the title screen, set the Checkpoint and Lives global variables to their default."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GameState.Checkpoint",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GameState.Lives",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "The game engine by default sends anonymous statistics to the project. This is helpful for developers on games as well as the developers behind GDevelop.\nIf desired, this can easily be disabled with the below event, although this example leaves it enabled."
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableMetrics"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Menu Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Movement Events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "To ensure that menu selector only moves once when a movement key is pressed, a variable is used to restrict the ability to move at all after moving once. \nThis variable needs to be switched back once all movement buttons are not pressed, and this is accomplished by checking that it is currently restricted, then checking that no buttons are pressed, then switching it back."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SelectorButtonsReleased",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "GlobalVariableString(gamepadUp)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Gamepads::C_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "GlobalVariableString(gamepadDown)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariableString(keyboardUp)"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "GlobalVariableString(keyboardDown)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SelectorButtonsReleased",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "The events shouldn't occur unless the selector has been released since last press AND the fade out hasn't started."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SelectorButtonsReleased",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "FadeObject",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Move the Selector Up or Down based off the gamepad button or keyboard key pressed.\nTo select the correct menu item to move to, the Up or Down variables are compared to the MenuTextItem group to find the matching Item.\nThe selector is then moved to the Y position of the correct MenuTextItem, -16 pixels to center the selector."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "Gamepads::C_Button_pressed"
+                          },
+                          "parameters": [
+                            "",
+                            "1",
+                            "GlobalVariableString(gamepadUp)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "GlobalVariableString(keyboardUp)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "MenuTextItem",
+                        "ID",
+                        "=",
+                        "Variable(CurrentMenuItem.Up)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "MenuSelector",
+                        "=",
+                        "MenuTextItem.Y()-16"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "SelectorButtonsReleased",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "MenuMove.wav",
+                        "1",
+                        "",
+                        "60",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "Gamepads::C_Button_pressed"
+                          },
+                          "parameters": [
+                            "",
+                            "1",
+                            "GlobalVariableString(gamepadDown)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "GlobalVariableString(keyboardDown)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "MenuTextItem",
+                        "ID",
+                        "=",
+                        "Variable(CurrentMenuItem.Down)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "MenuSelector",
+                        "=",
+                        "MenuTextItem.Y()-16"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "SelectorButtonsReleased",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "MenuMove.wav",
+                        "1",
+                        "",
+                        "60",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Once the selector is not moving, and the movement buttons are released, the scene variables tracking the current ID and possible movement IDs are updated."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SelectorButtonsReleased",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "MenuSelector",
+                    "MenuTextItem",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CurrentMenuItem.ID",
+                    "=",
+                    "MenuTextItem.Variable(ID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CurrentMenuItem.Up",
+                    "=",
+                    "MenuTextItem.Variable(Up)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CurrentMenuItem.Down",
+                    "=",
+                    "MenuTextItem.Variable(Down)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Selection Events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "As the screen should fade out once an object is selected, these events check that the movement has been completed, then starts the opacity tween of the Fade Object.\nAlso play the select sound once."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SelectorButtonsReleased",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "FadeObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Gamepads::C_Button_pressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "GlobalVariableString(gamepadJump)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariableString(keyboardAttack)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "FadeObject",
+                    "Tween",
+                    "\"FadeOut\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Select.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Once the fade out has finished, collision is tested between the selector and Menu Text Item, to find out which action is currently selected.\nThe action listed is then used to decide which scene to change to."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "FadeObject",
+                    "Tween",
+                    "\"FadeOut\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "MenuSelector",
+                    "MenuTextItem",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "MenuTextItem",
+                        "Action",
+                        "=",
+                        "\"Start\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Stage\"",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "MenuTextItem",
+                        "Action",
+                        "=",
+                        "\"Credits\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Credits\"",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "MenuTextItem",
+                        "Action",
+                        "=",
+                        "\"Exit\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Quit"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 134217728,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "BGLayer1",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
